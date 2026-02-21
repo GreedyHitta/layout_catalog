@@ -1,25 +1,26 @@
 .card {
   border-radius: 5px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border-color-light;
   background: $background-color-white;
   box-sizing: border-box;
-  padding: 32px 16px 16px;
+  padding: $card-padding-top $card-padding-x $card-padding-x;
   transition: transform 300ms ease;
-  width: 200px;
+  width: $card-width;
 
   &__img {
-    width: 160px;
-    height: 134px;
+    width: $card-img-width;
+    height: $card-img-height;
     display: block;
     margin: 0 auto 40px;
   }
 
   &__title {
     color: $text-color-main;
-    font-size: 12px;
+    font-size: $font-size-small;
     font-weight: 500;
     line-height: 18px;
     margin-bottom: 4px;
+    transition: color 300ms ease;
   }
 
   &__product-code {
@@ -45,13 +46,13 @@
     margin-bottom: 16px;
 
     &-title {
-      font-size: 12px;
+      font-size: $font-size-small;
       line-height: 18px;
       color: $text-color-secondary;
     }
 
     &-value {
-      font-size: 16px;
+      font-size: $font-size-large;
       font-weight: bold;
       line-height: 18px;
       color: $text-color-main;
@@ -64,15 +65,18 @@
     align-items: center;
     box-sizing: border-box;
     border-radius: 5px;
-    height: 40px;
+    height: $card-buy-height;
     color: $background-color-white;
     background-color: $blue-accent;
     border: 1px solid $blue-accent;
-    font-size: 14px;
+    font-size: $font-size-base;
     font-weight: bold;
     line-height: 16px;
     text-decoration: none;
     text-transform: uppercase;
+    transition:
+      background-color 300ms ease,
+      color 300ms ease;
 
     &:hover {
       background-color: $background-color-white;
@@ -84,7 +88,7 @@
     transform: scale(1.2);
 
     &__title {
-      color: #34568b;
+      color: $title-hover-color;
     }
   }
 }

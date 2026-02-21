@@ -12,7 +12,7 @@ Create an HTML page with a catalog. Develop semantic page structure as shown on 
 <<<<<<< Updated upstream
 - use `<main>` tag for cards container
 =======
-- use `<main>` tag for cards container 
+- use `<main>` tag for cards container
 >>>>>>> Stashed changes
 - use the grid for cards with different numbers of columns:
   - 1 for the smaller screens
@@ -37,13 +37,8 @@ This is possible because [we use the Parcel library](https://en.parceljs.org/scs
 ## Checklist
 
 ❗️ Replace `<your_account>` with your GitHub username and copy the links to the `Pull Request` description:
-<<<<<<< Updated upstream
 - [DEMO LINK](https://GreedyHitta.github.io/layout_catalog/)
-- [TEST REPORT LINK](https://https://greedyhitta.github.io/layout_catalog/.github.io/layout_catalog/report/html_report/)
-=======
-- [DEMO LINK](https://<your_account>.github.io/layout_catalog/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_catalog/report/html_report/)
->>>>>>> Stashed changes
+- [TEST REPORT LINK](https://GreedyHitta.github.io/layout_catalog/report/html_report/)
 
 ❗️ Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.
 
