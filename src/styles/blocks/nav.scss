@@ -6,20 +6,20 @@
 }
 
 .nav__item:not(:first-child) {
-  margin-left: 20px;
+  margin-left: $nav-margin-left;
 }
 
 .nav__link {
   position: relative;
   display: flex;
   align-items: center;
-  height: 60px;
-  font-size: 12px;
+  height: $nav-link-height;
+  font-size: $font-size-small;
   font-weight: 500;
   white-space: nowrap;
   text-decoration: none;
   text-transform: uppercase;
-  color: #060b35;
+  color: $text-color-main;
   transition: color 0.3s;
 
   &:hover {

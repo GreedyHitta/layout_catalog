@@ -7,8 +7,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 4px;
-    border-radius: 8px;
+    height: $is-active-height;
+    border-radius: $is-active-border-radius;
     background-color: $blue-accent;
   }
 }
